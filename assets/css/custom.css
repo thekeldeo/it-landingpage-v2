@@ -61,3 +61,10 @@
 .band-item .content-band h2 {
     z-index: 100;
 }
+
+@media screen and (max-width: 480px) {
+    .group .span-1-5.band-item {
+        height: 12.5rem;
+        width: 100%;
+    }
+}
