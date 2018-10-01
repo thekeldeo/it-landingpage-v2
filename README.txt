@@ -101,6 +101,7 @@ Instructions:
 			The primary building block of Ethereal.
 
 			HTML
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				<section class="panel (size modifier) (color modifier)">
 					<div class="intro (color modifier)">
@@ -113,8 +114,11 @@ Instructions:
 
 				Note: The entire "intro" child element can be excluded.
 				Note: You can have as many "intro" and "inner" child elements as you like.
+			
 
+			
 			Modifiers
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				Size
 
@@ -140,7 +144,9 @@ Instructions:
 					aligned        When used with "columns", aligns content to top of panel.
 					divided        When used with "columns", separates each column with a vertical line.
 
+			
 			Examples
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				Here's a very basic example:
 
@@ -184,6 +190,7 @@ Instructions:
 			The "Banner" variant of a regular panel.
 
 			HTML
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				<section class="panel banner (size modifier) (color modifier) (orientation modifier)">
 					<div class="content (color modifier)">
@@ -194,7 +201,9 @@ Instructions:
 					</div>
 				</section>
 
+			
 			Modifiers
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				Orientation
 
@@ -218,7 +227,9 @@ Instructions:
 					left           Position image along the left edge.
 					center         Position image in the center.
 
+			
 			Example
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				<section class="panel banner medium right">
 					<div class="content color0">
@@ -237,6 +248,7 @@ Instructions:
 			The "Spotlight" variant of a regular panel.
 
 			HTML
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				<section class="panel spotlight (size modifier) (orientation modifier)">
 					<div class="content (span modifier)">
@@ -247,7 +259,9 @@ Instructions:
 					</div>
 				</section>
 
+			
 			Modifiers
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				Orientation
 
@@ -271,7 +285,9 @@ Instructions:
 					left           Position image along the left edge.
 					center         Position image in the center.
 
+			
 			Example
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				<section class="panel spotlight large right">
 					<div class="content">
@@ -289,7 +305,9 @@ Instructions:
 
 			A lightbox-enabled gallery.
 
+			
 			HTML
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				<div class="gallery">
 					<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
@@ -323,7 +341,9 @@ Instructions:
 				automatically wrap to the next row when they exceed its width (as defined by its span modifier).
 				You can have as many groups in a gallery as you like.
 
+			
 			Modifiers
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				Image
 
@@ -342,7 +362,9 @@ Instructions:
 					left           Position image along the left edge.
 					center         Position image in the center.
 
+			
 			Example
+			——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 				<div class="gallery">
 					<a href="/images/thumbnails/01.jpg" class="image filtered span-2" data-position="center">
