@@ -9,7 +9,7 @@ template with more in the way of flexibility/customization potential. The result
 Ethereal, which combines a robust side-scrolling framework of my own creation (with various
 "scroll-assist" features like drag/momentum scrolling, keyboard shortcuts, etc.) with a unique
 look and feel, a lightbox gallery, tons of customization options, and, of course, full
-responsiveness. Hope you dig it :)
+responsiveness. This will make your site alive. Hope you dig it :)
 
 Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
