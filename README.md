@@ -22,8 +22,7 @@ aj@lkn.io | @ajlkn
 
 ### Instructions:
 
-	#### Overview
-	========
+#### Overview
 
 		Browsers deal with side-scrolling pages differently to vertically-oriented ones in
 		that they require elements (or at the very least, the top-most wrapper element) to
@@ -62,8 +61,7 @@ aj@lkn.io | @ajlkn
 		cases customized). See the top of assets/js/main.js for more information.
 
 
-	#### Span Modifiers
-	==============
+#### Span Modifiers
 
 		Span modifiers are simply classes that give elements a fixed width, the size of which
 		is determined by the "unit value" associated with the modifier (eg. "span-3" means
@@ -88,8 +86,7 @@ aj@lkn.io | @ajlkn
 		span-10       Span 10 units.
 
 
-	#### Major Elements
-	==============
+#### Major Elements
 
 		Most of Ethereal's elements are pretty much what you'd expect, but there are a handful
 		of "major" ones that warrant a bit more explanation:
@@ -178,8 +175,7 @@ aj@lkn.io | @ajlkn
 				isn't required.
 
 
-		#### Panel (Banner)
-		--------------
+#### Panel (Banner)
 
 			The "Banner" variant of a regular panel.
 
@@ -231,8 +227,7 @@ aj@lkn.io | @ajlkn
 				</section>
 
 
-		#### Panel (Spotlight)
-		-----------------
+#### Panel (Spotlight)
 
 			The "Spotlight" variant of a regular panel.
 
@@ -284,8 +279,7 @@ aj@lkn.io | @ajlkn
 				</section>
 
 
-		#### Gallery
-		-------
+#### Gallery
 
 			A lightbox-enabled gallery.
 
@@ -370,13 +364,13 @@ aj@lkn.io | @ajlkn
 
 ## Credits:
 
-	### Demo Images:
+### Demo Images:
 		Unsplash [unsplash.com](unsplash.com)
 
-	### Icons:
+### Icons:
 		Font Awesome [fontawesome.io](fontawesome.io)
 
-	### Other:
+### Other:
 		jQuery [jquery.com](jquery.com)
 		normalizeWheel (@miorel + @pieterv of Facebook)
 		Responsive Tools [github.com/ajlkn/responsive-tools](github.com/ajlkn/responsive-tools)
