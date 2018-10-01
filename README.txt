@@ -142,7 +142,7 @@ Instructions:
 
 			Examples
 
-				Here's a very basic example:
+				Here's a very basic example :-
 
 					<section class="panel medium color0">
 						<div class="intro">
