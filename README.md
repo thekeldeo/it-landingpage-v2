@@ -1,4 +1,4 @@
-Ethereal by HTML5 UP
+## Ethereal by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
@@ -20,10 +20,9 @@ AJ
 aj@lkn.io | @ajlkn
 
 
-Instructions:
+### Instructions:
 
-	Overview
-	========
+#### Overview
 
 		Browsers deal with side-scrolling pages differently to vertically-oriented ones in
 		that they require elements (or at the very least, the top-most wrapper element) to
@@ -62,8 +61,7 @@ Instructions:
 		cases customized). See the top of assets/js/main.js for more information.
 
 
-	Span Modifiers
-	==============
+#### Span Modifiers
 
 		Span modifiers are simply classes that give elements a fixed width, the size of which
 		is determined by the "unit value" associated with the modifier (eg. "span-3" means
@@ -88,8 +86,7 @@ Instructions:
 		span-10       Span 10 units.
 
 
-	Major Elements
-	==============
+#### Major Elements
 
 		Most of Ethereal's elements are pretty much what you'd expect, but there are a handful
 		of "major" ones that warrant a bit more explanation:
@@ -178,8 +175,7 @@ Instructions:
 				isn't required.
 
 
-		Panel (Banner)
-		--------------
+#### Panel (Banner)
 
 			The "Banner" variant of a regular panel.
 
@@ -231,8 +227,7 @@ Instructions:
 				</section>
 
 
-		Panel (Spotlight)
-		-----------------
+#### Panel (Spotlight)
 
 			The "Spotlight" variant of a regular panel.
 
@@ -284,8 +279,7 @@ Instructions:
 				</section>
 
 
-		Gallery
-		-------
+#### Gallery
 
 			A lightbox-enabled gallery.
 
@@ -368,15 +362,15 @@ Instructions:
 				</div>
 
 
-Credits:
+## Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+### Demo Images:
+		Unsplash - http://www.unsplash.com/
 
-	Icons:
-		Font Awesome (fontawesome.io)
+### Icons:
+		Font Awesome - http://www.fontawesome.io/
 
-	Other:
-		jQuery (jquery.com)
-		normalizeWheel (@miorel + @pieterv of Facebook)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+### Other:
+		jQuery - http://www.jquery.com/
+		normalizeWheel - @miorel + @pieterv of Facebook
+		Responsive Tools - http://www.github.com/ajlkn/responsive-tools/
