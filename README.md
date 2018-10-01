@@ -365,12 +365,12 @@ aj@lkn.io | @ajlkn
 ## Credits:
 
 ### Demo Images:
-		Unsplash (http://unsplash.com)
+		Unsplash - http://unsplash.com
 
 ### Icons:
-		Font Awesome (http://fontawesome.io)
+		Font Awesome - http://fontawesome.io
 
 ### Other:
-		jQuery (http://jquery.com)
-		normalizeWheel (@miorel + @pieterv of Facebook)
-		Responsive Tools (http://github.com/ajlkn/responsive-tools](github.com/ajlkn/responsive-tools)
+		jQuery - http://jquery.com
+		normalizeWheel - @miorel + @pieterv of Facebook
+		Responsive Tools - http://github.com/ajlkn/responsive-tools
