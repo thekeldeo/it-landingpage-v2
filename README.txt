@@ -4,7 +4,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 
 This is Ethereal, my latest, greatest, and quite possibly most unique template for HTML5 UP.
-Since releasing Parallelism 3-4 years ago (!!!), I've been dying to do another side-scrolling
+Since releasing Parallelism 3-4 years ago(!!!), I've been dying to do another side-scrolling
 template with more in the way of flexibility/customization potential. The result is this template,
 Ethereal, which combines a robust side-scrolling framework of my own creation (with various
 "scroll-assist" features like drag/momentum scrolling, keyboard shortcuts, etc.) with a unique
