@@ -144,35 +144,35 @@ Instructions:
 
 				Here's a very basic example:
 
-					<section class="panel medium color0">
-						<div class="intro">
-							<h2 class="major">Panel</h2>
-							<p>Just a generic panel.</p>
-						</div>
-						<div class="inner">
-							<p>Lorem ipsum dolor sit amet.</p>
-						</div>
-					</section>
+<section class="panel medium color0">
+	<div class="intro">
+		<h2 class="major">Panel</h2>
+		<p>Just a generic panel.</p>
+	</div>
+	<div class="inner">
+		<p>Lorem ipsum dolor sit amet.</p>
+	</div>
+</section>
 
 				And here's a more advanced example using columns and *no* size modifier:
 
-					<section class="panel color2">
-						<div class="intro">
-							<h2 class="major">Panel</h2>
-							<p>Just a generic panel.</p>
-						</div>
-						<div class="inner columns">
-							<div class="span-4">
-								<p>This column is 4 units wide.</p>
-							</div>
-							<div class="span-3">
-								<p>This column is 3 units wide.</p>
-							</div>
-							<div class="span-2">
-								<p>This column is 2 units wide.</p>
-							</div>
-						</div>
-					</section>
+<section class="panel color2">
+	<div class="intro">
+		<h2 class="major">Panel</h2>
+		<p>Just a generic panel.</p>
+	</div>
+	<div class="inner columns">
+		<div class="span-4">
+			<p>This column is 4 units wide.</p>
+		</div>
+		<div class="span-3">
+			<p>This column is 3 units wide.</p>
+		</div>
+		<div class="span-2">
+			<p>This column is 2 units wide.</p>
+		</div>
+	</div>
+</section>
 
 				Note: The "intro" child element already has a fixed width, so a span modifier
 				isn't required.
@@ -238,14 +238,14 @@ Instructions:
 
 			HTML
 
-				<section class="panel spotlight (size modifier) (orientation modifier)">
-					<div class="content (span modifier)">
-						(content)
-					</div>
-					<div class="image (image modifiers)" data-position="(image position modifier)">
-						<img src="(image URL)" alt="" />
-					</div>
-				</section>
+<section class="panel spotlight (size modifier) (orientation modifier)">
+	<div class="content (span modifier)">
+		(content)
+	</div>
+	<div class="image (image modifiers)" data-position="(image position modifier)">
+		<img src="(image URL)" alt="" />
+	</div>
+</section>
 
 			Modifiers
 
@@ -273,15 +273,15 @@ Instructions:
 
 			Example
 
-				<section class="panel spotlight large right">
-					<div class="content">
-						<h1>Spotlight</h1>
-						<p>Lorem ipsum dolor sit amet.</p>
-					</div>
-					<div class="image" data-position="center">
-						<img src="/path/to/image.jpg" alt="" />
-					</div>
-				</section>
+<section class="panel spotlight large right">
+	<div class="content">
+		<h1>Spotlight</h1>
+		<p>Lorem ipsum dolor sit amet.</p>
+	</div>
+	<div class="image" data-position="center">
+		<img src="/path/to/image.jpg" alt="" />
+	</div>
+</section>
 
 
 		Gallery
@@ -291,33 +291,33 @@ Instructions:
 
 			HTML
 
-				<div class="gallery">
-					<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-						<img src="(thumbnail image URL)" alt="" />
-					</a>
-					<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-						<img src="(thumbnail image URL)" alt="" />
-					</a>
-					<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-						<img src="(thumbnail image URL)" alt="" />
-					</a>
-					<div class="group (span modifier)">
-						<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-							<img src="(thumbnail image URL)" alt="" />
-						</a>
-						<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-							<img src="(thumbnail image URL)" alt="" />
-						</a>
-						<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-							<img src="(thumbnail image URL)" alt="" />
-						</a>
-						<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-							<img src="(thumbnail image URL)" alt="" />
-						</a>
-						...
-					</div>
-					...
-				</div>
+<div class="gallery">
+	<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
+		<img src="(thumbnail image URL)" alt="" />
+	</a>
+	<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
+		<img src="(thumbnail image URL)" alt="" />
+	</a>
+	<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
+		<img src="(thumbnail image URL)" alt="" />
+	</a>
+	<div class="group (span modifier)">
+		<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
+			<img src="(thumbnail image URL)" alt="" />
+		</a>
+		<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
+			<img src="(thumbnail image URL)" alt="" />
+		</a>
+		<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
+			<img src="(thumbnail image URL)" alt="" />
+		</a>
+		<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
+			<img src="(thumbnail image URL)" alt="" />
+		</a>
+		...
+	</div>
+	...
+</div>
 
 				Note: The "group" element creates a dual-row group of images. Images inside this group will
 				automatically wrap to the next row when they exceed its width (as defined by its span modifier).
@@ -344,28 +344,28 @@ Instructions:
 
 			Example
 
-				<div class="gallery">
-					<a href="/images/thumbnails/01.jpg" class="image filtered span-2" data-position="center">
-						<img src="/images/fulls/01.jpg" alt="" />
-					</a>
-					<a href="/images/thumbnails/02.jpg" class="image filtered span-4" data-position="center">
-						<img src="/images/fulls/02.jpg" alt="" />
-					</a>
-					<div class="group span-4">
-						<a href="/images/thumbnails/03.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images/fulls/03.jpg" alt="" />
-						</a>
-						<a href="/images/thumbnails/04.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images/fulls/04.jpg" alt="" />
-						</a>
-						<a href="/images/thumbnails/05.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images/fulls/05.jpg" alt="" />
-						</a>
-						<a href="/images/thumbnails/06.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images/fulls/06.jpg" alt="" />
-						</a>
-					</div>
-				</div>
+<div class="gallery">
+	<a href="/images/thumbnails/01.jpg" class="image filtered span-2" data-position="center">
+		<img src="/images/fulls/01.jpg" alt="" />
+	</a>
+	<a href="/images/thumbnails/02.jpg" class="image filtered span-4" data-position="center">
+		<img src="/images/fulls/02.jpg" alt="" />
+	</a>
+	<div class="group span-4">
+		<a href="/images/thumbnails/03.jpg" class="image filtered span-2" data-position="center">
+			<img src="/images/fulls/03.jpg" alt="" />
+		</a>
+		<a href="/images/thumbnails/04.jpg" class="image filtered span-2" data-position="center">
+			<img src="/images/fulls/04.jpg" alt="" />
+		</a>
+		<a href="/images/thumbnails/05.jpg" class="image filtered span-2" data-position="center">
+			<img src="/images/fulls/05.jpg" alt="" />
+		</a>
+		<a href="/images/thumbnails/06.jpg" class="image filtered span-2" data-position="center">
+			<img src="/images/fulls/06.jpg" alt="" />
+		</a>
+	</div>
+</div>
 
 
 Credits:
