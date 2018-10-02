@@ -101,7 +101,7 @@ Instructions:
 			The primary building block of Ethereal.
 
 			HTML
-
+-----------------------------------------------------------------------------------------------------------------
 				<section class="panel (size modifier) (color modifier)">
 					<div class="intro (color modifier)">
 						(intro content)
@@ -141,6 +141,7 @@ Instructions:
 					divided        When used with "columns", separates each column with a vertical line.
 
 			Examples
+-----------------------------------------------------------------------------------------------------------------
 
 				Here's a very basic example:
 
@@ -179,7 +180,7 @@ Instructions:
 
 
 		Panel (Banner)
-		--------------
+-----------------------------------------------------------------------------------------------------------------
 
 			The "Banner" variant of a regular panel.
 
@@ -232,7 +233,7 @@ Instructions:
 
 
 		Panel (Spotlight)
-		-----------------
+-----------------------------------------------------------------------------------------------------------------
 
 			The "Spotlight" variant of a regular panel.
 
@@ -271,6 +272,7 @@ Instructions:
 					left           Position image along the left edge.
 					center         Position image in the center.
 
+
 			Example
 
 				<section class="panel spotlight large right">
@@ -285,7 +287,8 @@ Instructions:
 
 
 		Gallery
-		-------
+		-----------------------------------------------------------------------------------------------------------------
+
 
 			A lightbox-enabled gallery.
 
@@ -344,7 +347,30 @@ Instructions:
 
 			Example
 
-				<div class="gallery">
+				<div class="Pre-gallery">
+					<a href="/images/thumbnails/07.jpg" class="image filtered span-2" data-position="center">
+						<img src="/images/fulls/07.jpg" alt="" />
+					</a>
+					<a href="/images/thumbnails/08.jpg" class="image filtered span-4" data-position="center">
+						<img src="/images/fulls/08.jpg" alt="" />
+					</a>
+					<div class="group span-4">
+						<a href="/images/thumbnails/09.jpg" class="image filtered span-2" data-position="center">
+							<img src="/images/fulls/09.jpg" alt="" />
+						</a>
+						<a href="/images/thumbnails/10.jpg" class="image filtered span-2" data-position="center">
+							<img src="/images/fulls/10.jpg" alt="" />
+						</a>
+						<a href="/images/thumbnails/11.jpg" class="image filtered span-2" data-position="center">
+							<img src="/images/fulls/11.jpg" alt="" />
+						</a>
+						<a href="/images/thumbnails/12.jpg" class="image filtered span-2" data-position="center">
+							<img src="/images/fulls/12.jpg" alt="" />
+						</a>
+					</div>
+				</div>
+
+								<div class="gallery">
 					<a href="/images/thumbnails/01.jpg" class="image filtered span-2" data-position="center">
 						<img src="/images/fulls/01.jpg" alt="" />
 					</a>
